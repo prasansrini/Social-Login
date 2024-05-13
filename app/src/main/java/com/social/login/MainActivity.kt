@@ -94,9 +94,6 @@ class MainActivity : ComponentActivity() {
 									Toast.LENGTH_SHORT
 								)
 								.show()
-
-							navController.navigate("profile")
-							viewModel.resetState()
 						}
 					}
 
